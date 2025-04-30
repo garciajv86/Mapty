@@ -29,6 +29,30 @@ if (navigator.geolocation)
         .addTo(map)
         .bindPopup("A pretty CSS popup.<br> Easily customizable.")
         .openPopup();
+
+      map.on("click", function (mapEvent) {
+        const { lat, lng } = mapEvent.latlng;
+        const mapCoords = [lat, lng];
+
+        const markerOptions = {
+          riseOnHover: true,
+          draggable: true,
+        };
+
+        const popupOptions = {
+          maxWidth: 250,
+          minWidth: 100,
+          autoClose: false,
+          closeOnClick: false,
+          className: "running-popup",
+        };
+
+        L.marker(mapCoords, markerOptions)
+          .addTo(map)
+          .bindPopup(L.popup(popupOptions))
+          .setPopupContent("Workout")
+          .openPopup();
+      });
     },
     function () {
       alert("Could not get your position");
