@@ -34,23 +34,25 @@ if (navigator.geolocation)
         const { lat, lng } = mapEvent.latlng;
         const mapCoords = [lat, lng];
 
+        //* Options for the marker method
         const markerOptions = {
           riseOnHover: true,
           draggable: true,
         };
 
+        //* Options for the popup method
         const popupOptions = {
           maxWidth: 250,
           minWidth: 100,
           autoClose: false,
           closeOnClick: false,
           className: "running-popup",
+          content: "Workout",
         };
 
         L.marker(mapCoords, markerOptions)
           .addTo(map)
           .bindPopup(L.popup(popupOptions))
-          .setPopupContent("Workout")
           .openPopup();
       });
     },
