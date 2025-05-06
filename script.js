@@ -21,6 +21,8 @@ class Workout {
 }
 
 class Running extends Workout {
+  type = "running";
+
   constructor(coords, distance, duration, cadence) {
     super(coords, distance, duration);
     this.cadence = cadence;
@@ -35,6 +37,8 @@ class Running extends Workout {
 }
 
 class Cycling extends Workout {
+  type = "cycling";
+
   constructor(coords, distance, duration, elevationGain) {
     super(coords, distance, duration);
     this.elevationGain = elevationGain;
@@ -158,32 +162,11 @@ class App {
 
     //* Add new object to workout array
     this.#workouts.push(workout);
-    console.log(workout);
 
     //* Render workout on map as marker
-
-    const mapCoords = [lat, lng];
+    this.renderWorkoutMarker(workout);
 
     //* Options for the marker method
-    const markerOptions = {
-      riseOnHover: true,
-      draggable: true,
-    };
-
-    //* Options for the popup method
-    const popupOptions = {
-      maxWidth: 250,
-      minWidth: 100,
-      autoClose: false,
-      closeOnClick: false,
-      className: "running-popup",
-      content: "Workout",
-    };
-
-    L.marker(mapCoords, markerOptions)
-      .addTo(this.#map)
-      .bindPopup(L.popup(popupOptions))
-      .openPopup();
 
     //* Render workout on list
 
@@ -195,6 +178,28 @@ class App {
       inputCadence.value =
       inputElevation.value =
         "";
+  }
+
+  renderWorkoutMarker(workout) {
+    const markerOptions = {
+      riseOnHover: true,
+      draggable: true,
+    };
+
+    //* Options for the popup method
+    const popupOptions = {
+      maxWidth: 250,
+      minWidth: 100,
+      autoClose: false,
+      closeOnClick: false,
+      className: `${workout.type}-popup`,
+      content: `${workout.type.toUpperCase()} Workout`,
+    };
+
+    L.marker(workout.coords, markerOptions)
+      .addTo(this.#map)
+      .bindPopup(L.popup(popupOptions))
+      .openPopup();
   }
 }
 
