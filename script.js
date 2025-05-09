@@ -339,3 +339,22 @@ class App {
 }
 
 const app = new App();
+
+//*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//*----------------------------------------------------------------------------------------------------------- 10 ADDITIONAL FEATURE IDEAS: CHALLENGES ----------------------------------------------------------------------------------------------------------------------------//
+//*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+// TODO 1: Ability to edit a workout.
+// TODO 2: Ability to delete a workout.
+// TODO 3: Ability to delete all workouts.
+// TODO 4: Ability to sort workouts by a certain field (e.g. distance). // NOTE: Maybe get ideas from the bankist app on sorting.
+// TODO 5: Re-build Running and Cycling objects coming from Local Storage, fix where objects coming from local storage are now regular objects and are no longer running and cycling objects, basically fix the error where I don't have the prototypal inheritance of methods.
+// TODO 6: More realistic error and confirmation messages. So instead of an alert window maybe implement something more real world and have them fade out after some time.
+// TODO 7: Ability to position the map to show all workouts [very hard]. So like a button that will show all the workouts on the map even if your in a different country. This will depend entirely on the leaflet library.
+// TODO 8: Ability to draw lines and shapes instead of just points [very hard].
+// TODO 9: Geocode location from coordinates ("Run in Faro, Portugal")[This will take async programming]. Could use a 3rd party api to plug in coordinates. So a description of the location and not just the raw coordinates.
+// TODO 10: Display weather data for workout time and place [This will also require some async programming]. Maybe revisit my weather app for this one for ideas.
+
+//*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
