@@ -27,9 +27,9 @@ Additionally, the project includes architectural diagrams and a flowchart (provi
 
 ## 📑 Table of Contents
 
-- [🔗 Links](#l-inks)
+- [🔗 Links](#-links)
 - [📸 ScreenShots](#-screenshots)
-  - [🗺️ Map Interface with Workout Popup](#-map-interface-with-workout-popup)
+ - [🗺️ Map Interface with Workout Popup](#-map-interface-with-workout-popup)
 - [🛠️ Installation](#-installation)
 - [🚀 Usage](#-usage)
 - [💡 Features](#-features)
