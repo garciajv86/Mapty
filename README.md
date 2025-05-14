@@ -27,16 +27,16 @@ Additionally, the project includes architectural diagrams and a flowchart (provi
 
 ## Table of Contents
 
-- [🔗 Links](#-links)
-- [📸 ScreenShots](#-screenshots)
-- [🛠️ Installation](#%EF%B8%8F-installation)
-- [🚀 Usage](#-usage)
-- [💡 Features](#-features)
-- [📈 Technologies Used](#-technologies-used)
-- [🙌 Credits](#-credits)
-- [🧾 License](#-license)
-- [🏅 Badges](#-badges)
-- [🔌 APIs](#-apis-used)
+- [🔗 Links](#links)
+- [📸 ScreenShots](#screenshots)
+- [🛠️ Installation](#installation)
+- [🚀 Usage](#usage)
+- [💡 Features](#features)
+- [📈 Technologies Used](#technologies-used)
+- [🙌 Credits](#credits)
+- [🧾 License](#license)
+- [🏅 Badges](#badges)
+- [🔌 APIs](#apis-used)
 
 ## 🔗 Links
 
