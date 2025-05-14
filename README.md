@@ -25,10 +25,11 @@ This project allowed me to explore and apply several core web development concep
 
 Additionally, the project includes architectural diagrams and a flowchart (provided as .png files) to illustrate the app’s structure and logic.
 
-## Table of Contents
+## 📑 Table of Contents
 
 - [🔗 Links](#links)
 - [📸 ScreenShots](#screenshots)
+    - [🗺️ Map Interface with Workout Popup](#map-interface-with-workout-popup)
 - [🛠️ Installation](#installation)
 - [🚀 Usage](#usage)
 - [💡 Features](#features)
