@@ -30,6 +30,7 @@ Additionally, the project includes architectural diagrams and a flowchart (provi
 
 - [🔗 Links](#-links)
 - [📸 Screenshots](#-screenshots)
+  - [🖼️ Mapty Interface Overview](#️-mapty-interface-overview)
   - [🗺️ Map Interface with Workout Popup](#️-map-interface-with-workout-popup)
   - [📝 Workout Form](#-workout-form)
   - [📋 Logged Workouts List](#-logged-workouts-list)
@@ -55,6 +56,10 @@ Additionally, the project includes architectural diagrams and a flowchart (provi
 - 🧠 **Project Diagrams:** [`Architecture Part 1`](./assets/images/Mapty-architecture-part-1.png), [`Final Architecture`](./assets/images/Mapty-architecture-final.png), [`Flowchart`](./assets/images/Mapty-flowchart.png)
 
 ## 📸 Screenshots
+
+### 🖼️ Mapty Interface Overview
+
+![Mapty Interface](./assets/images/screenshots/mapty-interface-overview.png)
 
 ### 🗺️ Map Interface with Workout Popup
 
