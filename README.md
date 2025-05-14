@@ -36,7 +36,7 @@ Additionally, the project includes architectural diagrams and a flowchart (provi
 - [🙌 Credits](#-credits)
 - [🧾 License](#-license)
 - [🏅 Badges](#-badges)
-- [🔌 APIs](#-apis)
+- [🔌 APIs](#-apis-used)
 
 ## 🔗 Links
 
