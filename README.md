@@ -29,7 +29,6 @@ Additionally, the project includes architectural diagrams and a flowchart (provi
 
 - [🔗 Links](#links)
 - [📸 ScreenShots](#screenshots)
-  - [🗺️ Map Interface with Workout Popup](#map-interface-with-workout-popup)
 - [🛠️ Installation](#installation)
 - [🚀 Usage](#usage)
 - [💡 Features](#features)
